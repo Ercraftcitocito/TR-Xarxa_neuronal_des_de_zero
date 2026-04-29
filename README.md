@@ -18,7 +18,7 @@ Si construeixo una xarxa neuronal des de zero i entenc totes les matemàtiques i
 
 Cap llibreria d'alt nivell (TensorFlow, PyTorch, Keras). Tot implementat manualment.
 
-## Com executar-ho
+## Execució
 
 ### Requisits
 
