@@ -89,7 +89,7 @@ class AppSimple:
         self.tk_img = ImageTk.PhotoImage(self.image)
         self.canvas_img = self.canvas.create_image(0, 0, anchor=tk.NW, image=self.tk_img)
 
-        # Panell dret proporcional
+        # Panel dret
         panel = tk.Frame(self.root, bg="#1e1e2e")
         panel.place(x=panel_x, y=pos_y, width=panel_w, height=self.CANVAS_SIZE)
 
@@ -110,19 +110,19 @@ class AppSimple:
         )
         self.lbl_conf.pack(pady=int(5 * scale))
 
-        btn_predecir = tk.Button(
+        btn_predir = tk.Button(
             panel, text="Predir", command=self.predict,
             font=("Helvetica", f_title, "bold"), bg="#a6e3a1", fg="#11111b",
             relief="flat", cursor="hand2", pady=p_btn
         )
-        btn_predecir.pack(fill="x", padx=int(20 * scale), pady=(int(20 * scale), int(10 * scale)))
+        btn_predir.pack(fill="x", padx=int(20 * scale), pady=(int(20 * scale), int(10 * scale)))
 
-        btn_limpiar = tk.Button(
+        btn_netegar = tk.Button(
             panel, text="Netejar", command=self.clear,
             font=("Helvetica", f_title, "bold"), bg="#f38ba8", fg="#11111b",
             relief="flat", cursor="hand2", pady=p_btn
         )
-        btn_limpiar.pack(fill="x", padx=int(20 * scale), pady=int(5 * scale))
+        btn_netegar.pack(fill="x", padx=int(20 * scale), pady=int(5 * scale))
 
         # Esdeveniments de ratolí
         self.last_x, self.last_y = None, None
