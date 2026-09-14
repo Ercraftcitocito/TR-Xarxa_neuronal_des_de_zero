@@ -8,12 +8,12 @@ Treball de recerca que construeix una xarxa neuronal des de zero per investigar 
 
 ## Hipòtesi
 
-Si construeixo una xarxa neuronal des de zero i entenc totes les matemàtiques i la programació subjacents, podré explicar completament per què pren cada decisió. En xarxes molt grans com ChatGPT, però, la complexitat emergent fa que aquesta explicació completa sigui inviable per a un humà.
-
+Si construeixo una xarxa neuronal des de zero i en aprenc tant les matemàtiques com la programació, seré capaç d'explicar i traçar amb total precisió el motiu pel qual la IA pren cada decisió concreta. 
 ## Tecnologies
 
 - **Python 3.10+**
 - **NumPy** — operacions matricials
+- **Pandas** — extreure dades per entrenar a la xarxa
 - **Matplotlib** — visualització de pesos i resultats
 
 Cap llibreria d'alt nivell (TensorFlow, PyTorch, Keras). Tot implementat manualment.
@@ -23,11 +23,11 @@ Cap llibreria d'alt nivell (TensorFlow, PyTorch, Keras). Tot implementat manualm
 ### Requisits
 
 ```bash
-pip install numpy matplotlib
+pip install numpy matplotlib pandas
 ```
 
 ## Àmbit acadèmic
 
 - **Matèries:** Matemàtiques, Programació
 - **Nivell:** Batxillerat
-- **Autor:** Eric VIlarrubla
+- **Autor:** Eric Vilarrubla
