@@ -124,7 +124,6 @@ class AppSimple:
         )
         btn_netegar.pack(fill="x", padx=int(20 * scale), pady=int(5 * scale))
 
-        # Esdeveniments de ratolí
         self.last_x, self.last_y = None, None
         self.canvas.bind("<Button-1>", self.start_stroke)
         self.canvas.bind("<B1-Motion>", self.draw_line)
