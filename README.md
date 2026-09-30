@@ -26,6 +26,8 @@ Cap llibreria d'alt nivell (TensorFlow, PyTorch, Keras). Tot implementat manualm
 pip install numpy matplotlib pandas
 ```
 
+Add this [https://www.kaggle.com/datasets/oddrationale/mnist-in-csv](.csv files) into a folder called MNIST:
+
 ## Àmbit acadèmic
 
 - **Matèries:** Matemàtiques, Programació
